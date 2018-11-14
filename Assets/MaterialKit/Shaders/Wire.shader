@@ -15,6 +15,7 @@ Shader "Custom/WireFrame"
       Tags { "RenderType" = "Transparent" }
       Blend SrcAlpha OneMinusSrcAlpha
       AlphaTest Greater 0.5
+      Cull Off
  
       CGPROGRAM
       #pragma vertex vert
